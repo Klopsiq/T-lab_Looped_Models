@@ -20,6 +20,7 @@ def main():
     parser.add_argument("--data", default="data/fineweb_bpe8k_v1")
     parser.add_argument("--split", choices=("validation", "test"), required=True)
     parser.add_argument("--windows", type=int, default=2048)
+    parser.add_argument("--exclude-windows", action="append", default=[])
     parser.add_argument("--output", required=True)
     args = parser.parse_args()
 
@@ -35,6 +36,13 @@ def main():
     eos = manifest["tokenizer"]["eos_id"]
     context = manifest["context"]
     caps = {name: manifest["counts"][name]["tokens"] for name in ("train", "validation", "test")}
+    excluded_documents = set()
+    exclusion_records = []
+    for name in args.exclude_windows:
+        path = Path(name)
+        with np.load(path, allow_pickle=False) as prior:
+            excluded_documents.update(map(str, prior["doc_ids"]))
+        exclusion_records.append({"file": path.name, "sha256": file_sha256(path)})
     counts = {name: 0 for name in caps}
     seen, candidates = set(), []
     for _, text in rows(Path(args.source)):
@@ -49,7 +57,7 @@ def main():
             continue
         ids = tokenizer.encode(text, add_special_tokens=False).ids + [eos]
         counts[split] += len(ids)
-        if split == args.split:
+        if split == args.split and group not in excluded_documents:
             array = np.asarray(ids, dtype="<u2")
             for start in range(0, len(ids) - context, context):
                 score = int(hashlib.sha256(f"{group}:{start}".encode()).hexdigest()[:16], 16)
@@ -67,6 +75,8 @@ def main():
         "sha256": file_sha256(output), "source_sha256": manifest["source"]["sha256"],
         "tokenizer_sha256": manifest["files"]["tokenizer.json"]["sha256"],
         "selection": "smallest sha256(document_hash:start), within-document non-overlapping windows",
+        "excluded_documents": len(excluded_documents),
+        "exclusion_files": exclusion_records,
     }
     output.with_suffix(".json").write_text(json.dumps(record, indent=2) + "\n")
     print(json.dumps(record, indent=2))
