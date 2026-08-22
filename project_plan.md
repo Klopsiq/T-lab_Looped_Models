@@ -30,7 +30,8 @@ Core содержит два Qwen-style decoder blocks с GQA, QK-norm, RoPE и 
 | E004 | Один раз проверить выбранные checkpoint и depth на test | Не использовать test для последующего подбора |
 | E005 | Проверить порядок MLP→Attention в двух training recipes | Завершён: порядок ухудшил NLL на обоих seed; сохранить Attention→MLP |
 | E006 | Расширить random-depth support с 8…16 до 8…24 при средней глубине 16 | Завершён: рабочая область сдвинулась, но экстраполяция после T=24 снова ухудшается |
-| E007 | Повторить final-only/auxiliary сравнение E006 на seed 71/89 | Оценить training-seed variance без изменения механизма |
+| E007 | Повторить final-only/auxiliary сравнение E006 на seed 71/89 | Завершён: final-only лучше на трёх из четырёх совокупных seed |
+| E008 | Проверить выбранный random8…24 final-only при T=16 на новом закрытом holdout | Финальная проверка без дополнительного обучения |
 
 ## Контроли
 
