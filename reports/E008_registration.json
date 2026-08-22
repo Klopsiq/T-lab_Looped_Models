@@ -1,0 +1,51 @@
+{
+  "publication_date": "2026-08-23",
+  "experiment": "E008",
+  "status": "locked_before_evaluation",
+  "windows": {
+    "split": "test",
+    "windows": 1456,
+    "target_tokens": 745472,
+    "documents": 1080,
+    "file": "E008_locked_test_windows.npz",
+    "sha256": "df609e39b23085c75d4c33bf1a061f2c48a99023f6708daf3e475ba8d1e30b79",
+    "source_sha256": "6b552ea48424648dc86d00df276f93fdfc55e9ad342ce3e4affc23a3a370792b",
+    "tokenizer_sha256": "59907441ee1b0d0f20b10571da1b5c58928d9706a788f23f1fe2bc7c2fba8c1c",
+    "selection": "smallest sha256(document_hash:start), within-document non-overlapping windows",
+    "excluded_documents": 1251,
+    "exclusion_files": [
+      {
+        "file": "E004_locked_test_windows.npz",
+        "sha256": "0d91ce72d1e2f79d88a5656a1c5ffbe8321b4071494b37951f427dec130199fb"
+      }
+    ]
+  },
+  "document_overlap_with_E004": 0,
+  "depths": [
+    12,
+    16,
+    24,
+    32
+  ],
+  "checkpoints": {
+    "old_aux_s23": "4b5b28c38b6de2e4a6b670f6a7ce8798e3a4593780b890586e0f333533968c2e",
+    "old_aux_s47": "c5fac83cc147c5abd91e49b818620f3162cd7d38a69ae35eb79eeb06ad02f146",
+    "new_final_s23": "efa04970f75855f120eed85764204d0c62cafd1c568fd626158daea0fb574d2e",
+    "new_final_s47": "6eee54ff7c8b64fb1e6980decb9731bd75e6e8ecd242fa33daf691400a42ff69",
+    "new_final_s71": "d9ed2d4c7ec5903ae883d926c79f750e44cc11311a5c4cbb9cf5c5f956af7e94",
+    "new_final_s89": "ada8510904b6460c22373a369ec4dd82dd0b980f277ce22dbc6a218f8f29a095"
+  },
+  "source_hashes": {
+    "research/protocols/E008_second_locked_test.md": "2a8a5fa83b1070b82c005486d3e91a8a9df1b5247d91e2d6ea3c3631956c8c5c",
+    "scripts/prepare_locked_eval.py": "46d0f862e7fb34c1c3183b188f6f119afe1cb1df9da1c182f159c2053c4781e4",
+    "scripts/eval_bpe_checkpoint.py": "3876a0fbb5dad5eb350f67f0e9869554b9b918c4f41cf8664c2dbf9c47c38ed2",
+    "scripts/run_e008_remote.sh": "8681c32108e8267a7a94ee052a725dc5f5115d726edd6837058b47d43378a2e7",
+    "scripts/analyze_e008.py": "3fd600dbf5b076b30ce1fb22accb46a4484459cfb3d20f53ecb32cbef1a7e113"
+  },
+  "decisions": {
+    "Q1": "candidate T16 beats previous T12 on both matched seeds; mean gain >= 0.01",
+    "Q2": "candidate T16 beats previous T16 on both matched seeds",
+    "Q3": "candidate NLL@24 - NLL@16 <= 0.02 on all four seeds"
+  },
+  "registration_sha256": "8e8328d2fe7c813de18c6e4022fc88ba001cf483a123e2385677e3e322a7dd72"
+}

@@ -1,0 +1,18 @@
+{
+  "split": "test",
+  "windows": 1456,
+  "target_tokens": 745472,
+  "documents": 1080,
+  "file": "E008_locked_test_windows.npz",
+  "sha256": "df609e39b23085c75d4c33bf1a061f2c48a99023f6708daf3e475ba8d1e30b79",
+  "source_sha256": "6b552ea48424648dc86d00df276f93fdfc55e9ad342ce3e4affc23a3a370792b",
+  "tokenizer_sha256": "59907441ee1b0d0f20b10571da1b5c58928d9706a788f23f1fe2bc7c2fba8c1c",
+  "selection": "smallest sha256(document_hash:start), within-document non-overlapping windows",
+  "excluded_documents": 1251,
+  "exclusion_files": [
+    {
+      "file": "E004_locked_test_windows.npz",
+      "sha256": "0d91ce72d1e2f79d88a5656a1c5ffbe8321b4071494b37951f427dec130199fb"
+    }
+  ]
+}
