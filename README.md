@@ -10,6 +10,8 @@
 
 Дополнительная проверка порядка residual sublayers показала, что `MLP→Attention` ухудшает NLL на обоих seed. Поэтому финальная архитектура сохраняет порядок `Attention→MLP`.
 
+Post-test абляция с расширением random-depth support до `T=24` перенесла лучший readout с T=12 на T=16 и уменьшила деградацию `16→24` примерно в четыре-пять раз. После новой границы качество снова ухудшается, поэтому эффект интерпретируется как сдвиг рабочей области, а не свободное test-time scaling.
+
 На двух seed выигрыш candidate относительно fixed-depth baseline при одинаковом `T=16` составил `0.0292` и `0.0226 NLL`. На закрытом test:
 
 | Модель | Глубина | NLL | PPL |
@@ -101,6 +103,7 @@ Runner регистрирует конфигурацию и hashes исходн�
 - [E003: подтверждение на FineWeb BPE8k](reports/E003_report.md)
 - [E004: закрытый test](reports/E004_report.md)
 - [E005: порядок MLP→Attention](reports/E005_report.md)
+- [E006: диапазон обучающих глубин](reports/E006_report.md)
 - [План исследования](project_plan.md)
 
 Выбранный checkpoint собран в [Hugging Face bundle](artifacts/looped-models-bpe8k-final/README.md). Публичный адрес модели добавляется после загрузки.
