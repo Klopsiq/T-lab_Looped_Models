@@ -107,6 +107,7 @@ Runner регистрирует конфигурацию и hashes исходн�
 - [E005: порядок MLP→Attention](reports/E005_report.md)
 - [E006: диапазон обучающих глубин](reports/E006_report.md)
 - [E007: репликация на новых seed](reports/E007_report.md)
+- [Журнал исследовательских решений](research/JOURNAL.md)
 - [План исследования](project_plan.md)
 
 Выбранный checkpoint собран в [Hugging Face bundle](artifacts/looped-models-bpe8k-final/README.md). Публичный адрес модели добавляется после загрузки.
