@@ -12,6 +12,9 @@ tags:
 
 This is the final checkpoint of the Looped Models research project. It was selected before a single locked-test evaluation and was not replaced using post-test validation ablations.
 
+- [Source code](https://github.com/Klopsiq/T-lab_Looped_Models)
+- [Research report](https://github.com/Klopsiq/T-lab_Looped_Models/blob/main/REPORT.md)
+
 The training dataset is FineWeb (ODC-By). No separate license has yet been selected for the model artifact.
 
 - Architecture: two shared Qwen-style blocks, width 512, GQA 8/2, relative input injection, Depth-RoPE.

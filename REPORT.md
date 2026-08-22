@@ -78,7 +78,7 @@ Random-depth training с затухающей промежуточной суп�
 
 ## Финальный выбор и направления роста
 
-Финальным артефактом остаётся checkpoint E003 `combined_random8_16_aux`, seed 47, при T=12. Его выбор сделан до test и подтверждён E004: test NLL 4.2103, PPL 67.38. После просмотра test checkpoint, режим обучения и inference depth не менялись.
+Финальным артефактом остаётся [checkpoint E003](https://huggingface.co/Klopsiq/looped-models-bpe8k-final) `combined_random8_16_aux`, seed 47, при T=12. Его выбор сделан до test и подтверждён E004: test NLL 4.2103, PPL 67.38. После просмотра test checkpoint, режим обучения и inference depth не менялись.
 
 E005–E007 являются post-selection validation-исследованиями. Они уточняют результат, не подменяя финальный выбор:
 

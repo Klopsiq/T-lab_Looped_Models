@@ -118,4 +118,9 @@ Runner регистрирует конфигурацию и hashes исходн�
 - [Журнал исследовательских решений](research/JOURNAL.md)
 - [План исследования](project_plan.md)
 
-Выбранный checkpoint E003 собран в [Hugging Face bundle](artifacts/looped-models-bpe8k-final/README.md). Веса, tokenizer, конфигурация, пример inference и результаты locked test входят в локальный комплект.
+## Публикация
+
+- [Финальный checkpoint E003 на Hugging Face](https://huggingface.co/Klopsiq/looped-models-bpe8k-final)
+- [Model card и состав публикуемого bundle](artifacts/looped-models-bpe8k-final/README.md)
+
+В публикацию входят веса, tokenizer, конфигурация, пример inference и результаты locked test.
