@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import csv
+import hashlib
 import json
 from pathlib import Path
 
@@ -9,9 +10,9 @@ import numpy as np
 
 
 ROOT = Path(__file__).resolve().parents[1]
-REPORT = ROOT / "reports" / "E005_rtx4080_20260914"
+REPORT = ROOT / "reports" / "E005"
 E003 = ROOT / "reports" / "E003_bpe" / "raw" / "runs" / "E003"
-E005 = REPORT / "raw" / "runs" / "E005"
+E005 = REPORT / "raw" / "runs" / "E005_v2"
 DEPTHS = [1, 2, 4, 8, 12, 16, 24, 32, 48, 64]
 PAIRS = {
     "fixed": ("relative_fixed16", "relative_fixed16_mlp_first"),
@@ -29,6 +30,10 @@ def load(directory):
     return results
 
 
+def sha256(path):
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
 def paired_bootstrap(mlp_first, standard, depth, samples=20_000):
     left = mlp_first["evaluation"]["per_document"][str(depth)]
     right = standard["evaluation"]["per_document"][str(depth)]
@@ -38,7 +43,7 @@ def paired_bootstrap(mlp_first, standard, depth, samples=20_000):
     left_sum = np.array([left[d]["nll_sum"] for d in documents])
     right_sum = np.array([right[d]["nll_sum"] for d in documents])
     tokens = np.array([left[d]["tokens"] for d in documents])
-    rng = np.random.default_rng(20260914 + mlp_first["seed"] * 100 + depth)
+    rng = np.random.default_rng(20260823 + mlp_first["seed"] * 100 + depth)
     values = np.empty(samples)
     for start in range(0, samples, 500):
         stop = min(samples, start + 500)
@@ -115,6 +120,24 @@ def main():
                                 "auxiliary_depth_thresholds": aux_depth_pass, "auxiliary_delta_pass": aux_delta_pass},
     }
     (REPORT / "E005_analysis.json").write_text(json.dumps(summary, indent=2) + "\n")
+
+    run_manifest = []
+    for result_path in sorted(E005.glob("*/result_*.json")):
+        result = json.loads(result_path.read_text())
+        registration_path = result_path.parent / "registration.json"
+        run_manifest.append({
+            "arm": result["arm"],
+            "seed": result["seed"],
+            "parameters": result["parameters"],
+            "presented_tokens": result["presented_tokens"],
+            "training_seconds": result["training_seconds"],
+            "peak_allocated_bytes": result["peak_allocated_bytes"],
+            "skipped_updates": result["skipped_updates"],
+            "checkpoint_sha256": result["checkpoint_sha256"],
+            "result_sha256": sha256(result_path),
+            "registration_sha256": sha256(registration_path),
+        })
+    (REPORT / "E005_run_manifest.json").write_text(json.dumps(run_manifest, indent=2) + "\n")
 
     import matplotlib
     matplotlib.use("Agg")

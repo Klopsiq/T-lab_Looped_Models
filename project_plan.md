@@ -28,7 +28,7 @@ Core содержит два Qwen-style decoder blocks с GQA, QK-norm, RoPE и 
 | E002 | Проверить fixed/random depth и auxiliary loss | Передать baseline и один candidate в BPE-подтверждение |
 | E003 | Повторить сравнение на 9.44M BPE-модели и двух seed | Продолжать до 100M только по зарегистрированному порогу |
 | E004 | Один раз проверить выбранные checkpoint и depth на test | Не использовать test для последующего подбора |
-| E005 | Проверить порядок MLP→Attention в двух training recipes | Оценить эффект порядка и взаимодействие с auxiliary loss |
+| E005 | Проверить порядок MLP→Attention в двух training recipes | Завершён: порядок ухудшил NLL на обоих seed; сохранить Attention→MLP |
 
 ## Контроли
 

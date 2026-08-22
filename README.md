@@ -8,6 +8,8 @@
 
 Модель с random-depth training и затухающим промежуточным LM loss улучшает качество внутри обучаемого диапазона `T=8…16`, но не сохраняет пользу дополнительных циклов после `T=16`.
 
+Дополнительная проверка порядка residual sublayers показала, что `MLP→Attention` ухудшает NLL на обоих seed. Поэтому финальная архитектура сохраняет порядок `Attention→MLP`.
+
 На двух seed выигрыш candidate относительно fixed-depth baseline при одинаковом `T=16` составил `0.0292` и `0.0226 NLL`. На закрытом test:
 
 | Модель | Глубина | NLL | PPL |
@@ -98,6 +100,7 @@ Runner регистрирует конфигурацию и hashes исходн�
 - [E002: screening механизмов](reports/E002_report.md)
 - [E003: подтверждение на FineWeb BPE8k](reports/E003_report.md)
 - [E004: закрытый test](reports/E004_report.md)
+- [E005: порядок MLP→Attention](reports/E005_report.md)
 - [План исследования](project_plan.md)
 
 Выбранный checkpoint собран в [Hugging Face bundle](artifacts/looped-models-bpe8k-final/README.md). Публичный адрес модели добавляется после загрузки.
