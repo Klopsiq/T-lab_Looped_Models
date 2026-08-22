@@ -64,7 +64,10 @@ def main():
                 candidates.append((score, group, array[start : start + context + 1].copy()))
     selected = heapq.nsmallest(args.windows, candidates, key=lambda item: item[0])
     if len(selected) != args.windows or counts != caps:
-        raise RuntimeError(f"Could not reconstruct registered traversal: counts={counts}")
+        raise RuntimeError(
+            f"Could not reconstruct registered traversal: counts={counts}, "
+            f"eligible_windows={len(candidates)}, requested_windows={args.windows}"
+        )
     output = Path(args.output)
     output.parent.mkdir(parents=True, exist_ok=True)
     np.savez_compressed(output, windows=np.stack([x[2] for x in selected]),
