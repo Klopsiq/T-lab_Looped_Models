@@ -1,0 +1,26 @@
+{
+  "status": "registered_before_test_evaluation",
+  "files": {
+    "research/protocols/E004_locked_test.md": "96461c256d0aaeb2136fdfd5b19329cc47438abe6b99d8c826c899bc02c71776",
+    "scripts/eval_bpe_checkpoint.py": "3876a0fbb5dad5eb350f67f0e9869554b9b918c4f41cf8664c2dbf9c47c38ed2",
+    "scripts/prepare_locked_eval.py": "7016d79ed522906fd747b93d682bb83679c621d13a2546b880d62c9b52f8fa24",
+    "reports/E004_locked_test_windows.npz": "0d91ce72d1e2f79d88a5656a1c5ffbe8321b4071494b37951f427dec130199fb"
+  },
+  "candidate_checkpoint_sha256": "c5fac83cc147c5abd91e49b818620f3162cd7d38a69ae35eb79eeb06ad02f146",
+  "baseline_checkpoint_sha256": "446d610faef460904909cf19989843ad9e38904b57e08312dbb4982ce5687bc9",
+  "evaluations": [
+    {
+      "checkpoint": "candidate_s47",
+      "depths": [
+        12,
+        16
+      ]
+    },
+    {
+      "checkpoint": "baseline_s47",
+      "depths": [
+        16
+      ]
+    }
+  ]
+}

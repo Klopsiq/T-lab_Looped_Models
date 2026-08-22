@@ -1,0 +1,68 @@
+{
+  "dataset": "HuggingFaceFW/fineweb",
+  "config": "sample-10BT",
+  "source": {
+    "url": "https://huggingface.co/datasets/HuggingFaceFW/fineweb/blob/9bb295ddab0e05d785b879661af7260fed5140fc/sample/10BT/000_00000.parquet",
+    "revision": "9bb295ddab0e05d785b879661af7260fed5140fc",
+    "sha256": "6b552ea48424648dc86d00df276f93fdfc55e9ad342ce3e4affc23a3a370792b"
+  },
+  "split": "sha256(whitespace-normalized full text) mod 100: 0..89 train, 90..94 validation, 95..99 test",
+  "dedup": "exact whitespace-normalized text before split",
+  "tokenizer": {
+    "type": "byte-level BPE",
+    "vocab_size": 8192,
+    "training_documents": 50000,
+    "training_split": "train only",
+    "eos_token": "<|endoftext|>",
+    "eos_id": 0
+  },
+  "packing": "uint16 document streams separated by EOS; training windows may cross EOS",
+  "context": 512,
+  "counts": {
+    "train": {
+      "tokens": 110000343,
+      "utf8_bytes": 413775189,
+      "documents": 133552
+    },
+    "validation": {
+      "tokens": 4000762,
+      "utf8_bytes": 15077195,
+      "documents": 4953
+    },
+    "test": {
+      "tokens": 4001038,
+      "utf8_bytes": 14988715,
+      "documents": 4957
+    }
+  },
+  "duplicates_removed": 4,
+  "unique_documents_seen": 148427,
+  "evaluation": {
+    "file": "validation_windows.npz",
+    "windows": 2048,
+    "documents": 1258,
+    "target_tokens": 1048576
+  },
+  "files": {
+    "train.bin": {
+      "bytes": 220000686,
+      "sha256": "acf0c79f3ea1dff58b9e113ff46abac8503de8584e9ad462c04a185b4b42c9ad"
+    },
+    "validation.bin": {
+      "bytes": 8001524,
+      "sha256": "54b6109a6a7a60625487c7ef75ff96439f12085740bc2bfd3e75eeb4c0b6737a"
+    },
+    "test.bin": {
+      "bytes": 8002076,
+      "sha256": "b534ac144cbef346b398f745ed2dcbecc1b2c3973157a2f9bc49e55c8ff46ef4"
+    },
+    "validation_windows.npz": {
+      "bytes": 1541929,
+      "sha256": "71bdbd39cceb57339162cb6135ef27e7768d6736a2a5ee5b2d676108bc1f6b64"
+    },
+    "tokenizer.json": {
+      "bytes": 546511,
+      "sha256": "59907441ee1b0d0f20b10571da1b5c58928d9706a788f23f1fe2bc7c2fba8c1c"
+    }
+  }
+}

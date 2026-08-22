@@ -1,0 +1,11 @@
+{
+  "split": "test",
+  "windows": 2048,
+  "target_tokens": 1048576,
+  "documents": 1251,
+  "file": "E004_locked_test_windows.npz",
+  "sha256": "0d91ce72d1e2f79d88a5656a1c5ffbe8321b4071494b37951f427dec130199fb",
+  "source_sha256": "6b552ea48424648dc86d00df276f93fdfc55e9ad342ce3e4affc23a3a370792b",
+  "tokenizer_sha256": "59907441ee1b0d0f20b10571da1b5c58928d9706a788f23f1fe2bc7c2fba8c1c",
+  "selection": "smallest sha256(document_hash:start), within-document non-overlapping windows"
+}

@@ -1,0 +1,1435 @@
+{
+  "split": "validation",
+  "tokens": 4096,
+  "windows": 64,
+  "documents": 45,
+  "metrics": {
+    "1": {
+      "nll": 3.355641189555172,
+      "byte_ppl": 28.663977342622363,
+      "bits_per_evaluated_byte": 4.841166903173988
+    },
+    "2": {
+      "nll": 3.129365960790892,
+      "byte_ppl": 22.859481139306304,
+      "bits_per_evaluated_byte": 4.514720752759747
+    },
+    "4": {
+      "nll": 3.0806250350287883,
+      "byte_ppl": 21.772006410915147,
+      "bits_per_evaluated_byte": 4.444402460874422
+    },
+    "6": {
+      "nll": 3.0953794484667014,
+      "byte_ppl": 22.095621096616377,
+      "bits_per_evaluated_byte": 4.465688579972525
+    },
+    "8": {
+      "nll": 3.113932833293802,
+      "byte_ppl": 22.50939625332165,
+      "bits_per_evaluated_byte": 4.492455456254287
+    },
+    "12": {
+      "nll": 3.153322834215942,
+      "byte_ppl": 23.41373542700503,
+      "bits_per_evaluated_byte": 4.5492832152452705
+    },
+    "16": {
+      "nll": 3.190676346071996,
+      "byte_ppl": 24.304860382141108,
+      "bits_per_evaluated_byte": 4.603172941559786
+    }
+  },
+  "per_document": {
+    "1": {
+      "<urn:uuid:360dafa2-395d-42e0-8302-d8038645b81a>": {
+        "nll_sum": 383.90550696849823,
+        "tokens": 128
+      },
+      "<urn:uuid:095340b9-8a67-45ac-afb3-250bec8e3efd>": {
+        "nll_sum": 420.1481751203537,
+        "tokens": 128
+      },
+      "<urn:uuid:afb88e53-1677-4ba0-b645-2fe8c73bfe92>": {
+        "nll_sum": 642.0543912649155,
+        "tokens": 128
+      },
+      "<urn:uuid:ec0e6f98-3a7f-4352-8b6f-6818490bfb09>": {
+        "nll_sum": 386.3501250743866,
+        "tokens": 128
+      },
+      "<urn:uuid:550f1552-014a-4ced-9df8-957efed7aa66>": {
+        "nll_sum": 541.9165581464767,
+        "tokens": 128
+      },
+      "<urn:uuid:2d7dd9ce-a1dc-474b-822e-bc55a7a1d134>": {
+        "nll_sum": 439.7890428304672,
+        "tokens": 128
+      },
+      "<urn:uuid:223245c6-cb3b-4b51-9be0-42b4f68b8f50>": {
+        "nll_sum": 416.2990583181381,
+        "tokens": 128
+      },
+      "<urn:uuid:4ced032c-6755-40a4-adbe-04cbce45ca4d>": {
+        "nll_sum": 394.62308299541473,
+        "tokens": 128
+      },
+      "<urn:uuid:7952b619-9220-43e5-b347-e9eb59e482f1>": {
+        "nll_sum": 391.5306580066681,
+        "tokens": 128
+      },
+      "<urn:uuid:21d93486-56e5-4964-8f8c-53e68566ffa9>": {
+        "nll_sum": 427.48776149749756,
+        "tokens": 128
+      },
+      "<urn:uuid:f54d7596-478b-4884-8c87-8ee6018559c4>": {
+        "nll_sum": 411.10825967788696,
+        "tokens": 128
+      },
+      "<urn:uuid:54fde05a-6416-4ebc-88da-f5bfd9ff70d7>": {
+        "nll_sum": 434.9986423254013,
+        "tokens": 128
+      },
+      "<urn:uuid:d4b5a2cb-eb27-462d-b38d-5329468bba24>": {
+        "nll_sum": 396.0438355207443,
+        "tokens": 128
+      },
+      "<urn:uuid:1c41f3df-cbe7-4adf-88de-e3ecdab31093>": {
+        "nll_sum": 411.66304218769073,
+        "tokens": 128
+      },
+      "<urn:uuid:7ef8e55e-3e66-41aa-b5f7-88fbeb5f1c87>": {
+        "nll_sum": 431.5953234434128,
+        "tokens": 128
+      },
+      "<urn:uuid:c6c03e75-ef3c-4e66-80ce-d937222af5e1>": {
+        "nll_sum": 408.1535006761551,
+        "tokens": 128
+      },
+      "<urn:uuid:a6a01339-b446-4316-940c-da310b176b81>": {
+        "nll_sum": 436.77461791038513,
+        "tokens": 128
+      },
+      "<urn:uuid:3cad8aa8-a0c4-4556-81a3-03253c1cb027>": {
+        "nll_sum": 390.8393850326538,
+        "tokens": 128
+      },
+      "<urn:uuid:07b27a46-98e3-4dd6-b067-28b172d74f1c>": {
+        "nll_sum": 403.95228338241577,
+        "tokens": 128
+      },
+      "<urn:uuid:fb60a26a-cf55-4ebb-ad77-2701f4832adf>": {
+        "nll_sum": 190.45836091041565,
+        "tokens": 64
+      },
+      "<urn:uuid:cecf0e24-c788-41c7-a4fe-ebd1bf99d4d6>": {
+        "nll_sum": 208.09682071208954,
+        "tokens": 64
+      },
+      "<urn:uuid:7b5e4231-3321-42c1-b3aa-d39be2dbf287>": {
+        "nll_sum": 226.469224691391,
+        "tokens": 64
+      },
+      "<urn:uuid:8cd72730-220b-4220-9cc6-3c6805f93d43>": {
+        "nll_sum": 258.9312710762024,
+        "tokens": 64
+      },
+      "<urn:uuid:3d309272-4886-4774-800c-93689bebd499>": {
+        "nll_sum": 189.50504624843597,
+        "tokens": 64
+      },
+      "<urn:uuid:01bf7cc7-f503-425f-985d-1e230dd777ef>": {
+        "nll_sum": 210.52295756340027,
+        "tokens": 64
+      },
+      "<urn:uuid:f039feac-7cd1-42b5-a7a2-50a40c01413d>": {
+        "nll_sum": 220.43435204029083,
+        "tokens": 64
+      },
+      "<urn:uuid:4d6acfe6-fe70-409d-ae15-043a8728098b>": {
+        "nll_sum": 209.27557158470154,
+        "tokens": 64
+      },
+      "<urn:uuid:2915eaf2-0700-4f20-90b6-840461a97ed5>": {
+        "nll_sum": 229.69003403186798,
+        "tokens": 64
+      },
+      "<urn:uuid:5dc7084c-e1f3-4bec-b76b-b116bb6a7633>": {
+        "nll_sum": 210.12883615493774,
+        "tokens": 64
+      },
+      "<urn:uuid:7e9f6e85-f2d3-4c0e-8bdb-ae0b597dbdab>": {
+        "nll_sum": 203.40137827396393,
+        "tokens": 64
+      },
+      "<urn:uuid:8edeb30a-8c55-44ca-b677-12b75aa49da5>": {
+        "nll_sum": 203.19674587249756,
+        "tokens": 64
+      },
+      "<urn:uuid:34b39672-a82e-4bc6-b100-f0e4a1474a02>": {
+        "nll_sum": 218.39511477947235,
+        "tokens": 64
+      },
+      "<urn:uuid:09fe8327-fcb9-4a20-9d0a-61e0a300b31a>": {
+        "nll_sum": 194.5009217262268,
+        "tokens": 64
+      },
+      "<urn:uuid:a7b93839-5b23-402d-b438-f5d83a1f7a10>": {
+        "nll_sum": 204.71701574325562,
+        "tokens": 64
+      },
+      "<urn:uuid:e4e88591-7f5c-4eba-b8c4-b4250ab6cb4c>": {
+        "nll_sum": 193.83387100696564,
+        "tokens": 64
+      },
+      "<urn:uuid:14c9a67f-b3ba-4ee4-b708-58b29e823a18>": {
+        "nll_sum": 182.52124106884003,
+        "tokens": 64
+      },
+      "<urn:uuid:ae61e57d-27da-420a-9f4f-95b618e3657d>": {
+        "nll_sum": 205.05516183376312,
+        "tokens": 64
+      },
+      "<urn:uuid:ca2fc211-902e-474c-9276-5f9e0d6006dd>": {
+        "nll_sum": 217.06827569007874,
+        "tokens": 64
+      },
+      "<urn:uuid:539c7a34-9650-4b07-aa93-8f0a28ae41f3>": {
+        "nll_sum": 208.689759850502,
+        "tokens": 64
+      },
+      "<urn:uuid:e300d760-188f-4b3b-819d-714e747e7d40>": {
+        "nll_sum": 219.15802705287933,
+        "tokens": 64
+      },
+      "<urn:uuid:84cf351a-5534-4b94-ac2d-dcd4b7b58708>": {
+        "nll_sum": 252.08392012119293,
+        "tokens": 64
+      },
+      "<urn:uuid:056a4656-9d9f-4da1-af03-4215459d8183>": {
+        "nll_sum": 245.80258095264435,
+        "tokens": 64
+      },
+      "<urn:uuid:b5c6edb4-3578-4f5c-bc3f-975db60c2259>": {
+        "nll_sum": 233.33594703674316,
+        "tokens": 64
+      },
+      "<urn:uuid:92c18755-00b7-4459-9196-5d1071d585ff>": {
+        "nll_sum": 234.45737779140472,
+        "tokens": 64
+      },
+      "<urn:uuid:04a311e9-1f0f-4814-a60d-eca00488550e>": {
+        "nll_sum": 205.74324822425842,
+        "tokens": 64
+      }
+    },
+    "2": {
+      "<urn:uuid:360dafa2-395d-42e0-8302-d8038645b81a>": {
+        "nll_sum": 367.32299649715424,
+        "tokens": 128
+      },
+      "<urn:uuid:095340b9-8a67-45ac-afb3-250bec8e3efd>": {
+        "nll_sum": 401.03102642297745,
+        "tokens": 128
+      },
+      "<urn:uuid:afb88e53-1677-4ba0-b645-2fe8c73bfe92>": {
+        "nll_sum": 570.6381083726883,
+        "tokens": 128
+      },
+      "<urn:uuid:ec0e6f98-3a7f-4352-8b6f-6818490bfb09>": {
+        "nll_sum": 366.693408370018,
+        "tokens": 128
+      },
+      "<urn:uuid:550f1552-014a-4ced-9df8-957efed7aa66>": {
+        "nll_sum": 480.16980838775635,
+        "tokens": 128
+      },
+      "<urn:uuid:2d7dd9ce-a1dc-474b-822e-bc55a7a1d134>": {
+        "nll_sum": 400.6644586920738,
+        "tokens": 128
+      },
+      "<urn:uuid:223245c6-cb3b-4b51-9be0-42b4f68b8f50>": {
+        "nll_sum": 386.21648877859116,
+        "tokens": 128
+      },
+      "<urn:uuid:4ced032c-6755-40a4-adbe-04cbce45ca4d>": {
+        "nll_sum": 372.4530984759331,
+        "tokens": 128
+      },
+      "<urn:uuid:7952b619-9220-43e5-b347-e9eb59e482f1>": {
+        "nll_sum": 371.48685252666473,
+        "tokens": 128
+      },
+      "<urn:uuid:21d93486-56e5-4964-8f8c-53e68566ffa9>": {
+        "nll_sum": 395.2586988210678,
+        "tokens": 128
+      },
+      "<urn:uuid:f54d7596-478b-4884-8c87-8ee6018559c4>": {
+        "nll_sum": 389.9662432074547,
+        "tokens": 128
+      },
+      "<urn:uuid:54fde05a-6416-4ebc-88da-f5bfd9ff70d7>": {
+        "nll_sum": 401.3138058781624,
+        "tokens": 128
+      },
+      "<urn:uuid:d4b5a2cb-eb27-462d-b38d-5329468bba24>": {
+        "nll_sum": 377.72149008512497,
+        "tokens": 128
+      },
+      "<urn:uuid:1c41f3df-cbe7-4adf-88de-e3ecdab31093>": {
+        "nll_sum": 387.5008704662323,
+        "tokens": 128
+      },
+      "<urn:uuid:7ef8e55e-3e66-41aa-b5f7-88fbeb5f1c87>": {
+        "nll_sum": 406.48342603445053,
+        "tokens": 128
+      },
+      "<urn:uuid:c6c03e75-ef3c-4e66-80ce-d937222af5e1>": {
+        "nll_sum": 391.81495624780655,
+        "tokens": 128
+      },
+      "<urn:uuid:a6a01339-b446-4316-940c-da310b176b81>": {
+        "nll_sum": 397.67819809913635,
+        "tokens": 128
+      },
+      "<urn:uuid:3cad8aa8-a0c4-4556-81a3-03253c1cb027>": {
+        "nll_sum": 368.5986883044243,
+        "tokens": 128
+      },
+      "<urn:uuid:07b27a46-98e3-4dd6-b067-28b172d74f1c>": {
+        "nll_sum": 383.56318736076355,
+        "tokens": 128
+      },
+      "<urn:uuid:fb60a26a-cf55-4ebb-ad77-2701f4832adf>": {
+        "nll_sum": 182.07602787017822,
+        "tokens": 64
+      },
+      "<urn:uuid:cecf0e24-c788-41c7-a4fe-ebd1bf99d4d6>": {
+        "nll_sum": 198.62264668941498,
+        "tokens": 64
+      },
+      "<urn:uuid:7b5e4231-3321-42c1-b3aa-d39be2dbf287>": {
+        "nll_sum": 211.11801260709763,
+        "tokens": 64
+      },
+      "<urn:uuid:8cd72730-220b-4220-9cc6-3c6805f93d43>": {
+        "nll_sum": 242.48223340511322,
+        "tokens": 64
+      },
+      "<urn:uuid:3d309272-4886-4774-800c-93689bebd499>": {
+        "nll_sum": 180.64915359020233,
+        "tokens": 64
+      },
+      "<urn:uuid:01bf7cc7-f503-425f-985d-1e230dd777ef>": {
+        "nll_sum": 200.53652501106262,
+        "tokens": 64
+      },
+      "<urn:uuid:f039feac-7cd1-42b5-a7a2-50a40c01413d>": {
+        "nll_sum": 207.01764273643494,
+        "tokens": 64
+      },
+      "<urn:uuid:4d6acfe6-fe70-409d-ae15-043a8728098b>": {
+        "nll_sum": 193.9402294754982,
+        "tokens": 64
+      },
+      "<urn:uuid:2915eaf2-0700-4f20-90b6-840461a97ed5>": {
+        "nll_sum": 213.60137856006622,
+        "tokens": 64
+      },
+      "<urn:uuid:5dc7084c-e1f3-4bec-b76b-b116bb6a7633>": {
+        "nll_sum": 195.08163952827454,
+        "tokens": 64
+      },
+      "<urn:uuid:7e9f6e85-f2d3-4c0e-8bdb-ae0b597dbdab>": {
+        "nll_sum": 190.99498200416565,
+        "tokens": 64
+      },
+      "<urn:uuid:8edeb30a-8c55-44ca-b677-12b75aa49da5>": {
+        "nll_sum": 192.57551848888397,
+        "tokens": 64
+      },
+      "<urn:uuid:34b39672-a82e-4bc6-b100-f0e4a1474a02>": {
+        "nll_sum": 200.63533967733383,
+        "tokens": 64
+      },
+      "<urn:uuid:09fe8327-fcb9-4a20-9d0a-61e0a300b31a>": {
+        "nll_sum": 184.2152839899063,
+        "tokens": 64
+      },
+      "<urn:uuid:a7b93839-5b23-402d-b438-f5d83a1f7a10>": {
+        "nll_sum": 192.36754965782166,
+        "tokens": 64
+      },
+      "<urn:uuid:e4e88591-7f5c-4eba-b8c4-b4250ab6cb4c>": {
+        "nll_sum": 182.41273593902588,
+        "tokens": 64
+      },
+      "<urn:uuid:14c9a67f-b3ba-4ee4-b708-58b29e823a18>": {
+        "nll_sum": 176.0765483379364,
+        "tokens": 64
+      },
+      "<urn:uuid:ae61e57d-27da-420a-9f4f-95b618e3657d>": {
+        "nll_sum": 192.3857026696205,
+        "tokens": 64
+      },
+      "<urn:uuid:ca2fc211-902e-474c-9276-5f9e0d6006dd>": {
+        "nll_sum": 199.2253509759903,
+        "tokens": 64
+      },
+      "<urn:uuid:539c7a34-9650-4b07-aa93-8f0a28ae41f3>": {
+        "nll_sum": 193.2609976530075,
+        "tokens": 64
+      },
+      "<urn:uuid:e300d760-188f-4b3b-819d-714e747e7d40>": {
+        "nll_sum": 204.61534875631332,
+        "tokens": 64
+      },
+      "<urn:uuid:84cf351a-5534-4b94-ac2d-dcd4b7b58708>": {
+        "nll_sum": 230.5333269238472,
+        "tokens": 64
+      },
+      "<urn:uuid:056a4656-9d9f-4da1-af03-4215459d8183>": {
+        "nll_sum": 217.39977341890335,
+        "tokens": 64
+      },
+      "<urn:uuid:b5c6edb4-3578-4f5c-bc3f-975db60c2259>": {
+        "nll_sum": 215.27313923835754,
+        "tokens": 64
+      },
+      "<urn:uuid:92c18755-00b7-4459-9196-5d1071d585ff>": {
+        "nll_sum": 214.08552658557892,
+        "tokens": 64
+      },
+      "<urn:uuid:04a311e9-1f0f-4814-a60d-eca00488550e>": {
+        "nll_sum": 190.1245505809784,
+        "tokens": 64
+      }
+    },
+    "4": {
+      "<urn:uuid:360dafa2-395d-42e0-8302-d8038645b81a>": {
+        "nll_sum": 360.05568593740463,
+        "tokens": 128
+      },
+      "<urn:uuid:095340b9-8a67-45ac-afb3-250bec8e3efd>": {
+        "nll_sum": 395.27852445840836,
+        "tokens": 128
+      },
+      "<urn:uuid:afb88e53-1677-4ba0-b645-2fe8c73bfe92>": {
+        "nll_sum": 580.419931769371,
+        "tokens": 128
+      },
+      "<urn:uuid:ec0e6f98-3a7f-4352-8b6f-6818490bfb09>": {
+        "nll_sum": 361.092404961586,
+        "tokens": 128
+      },
+      "<urn:uuid:550f1552-014a-4ced-9df8-957efed7aa66>": {
+        "nll_sum": 463.5815740227699,
+        "tokens": 128
+      },
+      "<urn:uuid:2d7dd9ce-a1dc-474b-822e-bc55a7a1d134>": {
+        "nll_sum": 389.8836553096771,
+        "tokens": 128
+      },
+      "<urn:uuid:223245c6-cb3b-4b51-9be0-42b4f68b8f50>": {
+        "nll_sum": 376.9023561477661,
+        "tokens": 128
+      },
+      "<urn:uuid:4ced032c-6755-40a4-adbe-04cbce45ca4d>": {
+        "nll_sum": 364.09326761960983,
+        "tokens": 128
+      },
+      "<urn:uuid:7952b619-9220-43e5-b347-e9eb59e482f1>": {
+        "nll_sum": 364.3587180376053,
+        "tokens": 128
+      },
+      "<urn:uuid:21d93486-56e5-4964-8f8c-53e68566ffa9>": {
+        "nll_sum": 386.8820575475693,
+        "tokens": 128
+      },
+      "<urn:uuid:f54d7596-478b-4884-8c87-8ee6018559c4>": {
+        "nll_sum": 383.60383212566376,
+        "tokens": 128
+      },
+      "<urn:uuid:54fde05a-6416-4ebc-88da-f5bfd9ff70d7>": {
+        "nll_sum": 393.67458260059357,
+        "tokens": 128
+      },
+      "<urn:uuid:d4b5a2cb-eb27-462d-b38d-5329468bba24>": {
+        "nll_sum": 377.0296160578728,
+        "tokens": 128
+      },
+      "<urn:uuid:1c41f3df-cbe7-4adf-88de-e3ecdab31093>": {
+        "nll_sum": 383.01236045360565,
+        "tokens": 128
+      },
+      "<urn:uuid:7ef8e55e-3e66-41aa-b5f7-88fbeb5f1c87>": {
+        "nll_sum": 404.3363639116287,
+        "tokens": 128
+      },
+      "<urn:uuid:c6c03e75-ef3c-4e66-80ce-d937222af5e1>": {
+        "nll_sum": 390.11325800418854,
+        "tokens": 128
+      },
+      "<urn:uuid:a6a01339-b446-4316-940c-da310b176b81>": {
+        "nll_sum": 383.3196359872818,
+        "tokens": 128
+      },
+      "<urn:uuid:3cad8aa8-a0c4-4556-81a3-03253c1cb027>": {
+        "nll_sum": 363.6232314109802,
+        "tokens": 128
+      },
+      "<urn:uuid:07b27a46-98e3-4dd6-b067-28b172d74f1c>": {
+        "nll_sum": 379.22442173957825,
+        "tokens": 128
+      },
+      "<urn:uuid:fb60a26a-cf55-4ebb-ad77-2701f4832adf>": {
+        "nll_sum": 180.56135427951813,
+        "tokens": 64
+      },
+      "<urn:uuid:cecf0e24-c788-41c7-a4fe-ebd1bf99d4d6>": {
+        "nll_sum": 196.6172701716423,
+        "tokens": 64
+      },
+      "<urn:uuid:7b5e4231-3321-42c1-b3aa-d39be2dbf287>": {
+        "nll_sum": 206.5288589000702,
+        "tokens": 64
+      },
+      "<urn:uuid:8cd72730-220b-4220-9cc6-3c6805f93d43>": {
+        "nll_sum": 252.28180170059204,
+        "tokens": 64
+      },
+      "<urn:uuid:3d309272-4886-4774-800c-93689bebd499>": {
+        "nll_sum": 176.29075264930725,
+        "tokens": 64
+      },
+      "<urn:uuid:01bf7cc7-f503-425f-985d-1e230dd777ef>": {
+        "nll_sum": 200.5216827392578,
+        "tokens": 64
+      },
+      "<urn:uuid:f039feac-7cd1-42b5-a7a2-50a40c01413d>": {
+        "nll_sum": 203.22066336870193,
+        "tokens": 64
+      },
+      "<urn:uuid:4d6acfe6-fe70-409d-ae15-043a8728098b>": {
+        "nll_sum": 190.19386380910873,
+        "tokens": 64
+      },
+      "<urn:uuid:2915eaf2-0700-4f20-90b6-840461a97ed5>": {
+        "nll_sum": 208.8667254447937,
+        "tokens": 64
+      },
+      "<urn:uuid:5dc7084c-e1f3-4bec-b76b-b116bb6a7633>": {
+        "nll_sum": 191.59185767173767,
+        "tokens": 64
+      },
+      "<urn:uuid:7e9f6e85-f2d3-4c0e-8bdb-ae0b597dbdab>": {
+        "nll_sum": 188.11854082345963,
+        "tokens": 64
+      },
+      "<urn:uuid:8edeb30a-8c55-44ca-b677-12b75aa49da5>": {
+        "nll_sum": 189.2037118077278,
+        "tokens": 64
+      },
+      "<urn:uuid:34b39672-a82e-4bc6-b100-f0e4a1474a02>": {
+        "nll_sum": 198.4309459924698,
+        "tokens": 64
+      },
+      "<urn:uuid:09fe8327-fcb9-4a20-9d0a-61e0a300b31a>": {
+        "nll_sum": 182.41841965913773,
+        "tokens": 64
+      },
+      "<urn:uuid:a7b93839-5b23-402d-b438-f5d83a1f7a10>": {
+        "nll_sum": 188.3805229663849,
+        "tokens": 64
+      },
+      "<urn:uuid:e4e88591-7f5c-4eba-b8c4-b4250ab6cb4c>": {
+        "nll_sum": 176.94490426778793,
+        "tokens": 64
+      },
+      "<urn:uuid:14c9a67f-b3ba-4ee4-b708-58b29e823a18>": {
+        "nll_sum": 175.02262496948242,
+        "tokens": 64
+      },
+      "<urn:uuid:ae61e57d-27da-420a-9f4f-95b618e3657d>": {
+        "nll_sum": 188.46809208393097,
+        "tokens": 64
+      },
+      "<urn:uuid:ca2fc211-902e-474c-9276-5f9e0d6006dd>": {
+        "nll_sum": 195.96030926704407,
+        "tokens": 64
+      },
+      "<urn:uuid:539c7a34-9650-4b07-aa93-8f0a28ae41f3>": {
+        "nll_sum": 188.15576416254044,
+        "tokens": 64
+      },
+      "<urn:uuid:e300d760-188f-4b3b-819d-714e747e7d40>": {
+        "nll_sum": 203.5950362086296,
+        "tokens": 64
+      },
+      "<urn:uuid:84cf351a-5534-4b94-ac2d-dcd4b7b58708>": {
+        "nll_sum": 224.93503445386887,
+        "tokens": 64
+      },
+      "<urn:uuid:056a4656-9d9f-4da1-af03-4215459d8183>": {
+        "nll_sum": 207.14088833332062,
+        "tokens": 64
+      },
+      "<urn:uuid:b5c6edb4-3578-4f5c-bc3f-975db60c2259>": {
+        "nll_sum": 209.79947578907013,
+        "tokens": 64
+      },
+      "<urn:uuid:92c18755-00b7-4459-9196-5d1071d585ff>": {
+        "nll_sum": 208.7030701637268,
+        "tokens": 64
+      },
+      "<urn:uuid:04a311e9-1f0f-4814-a60d-eca00488550e>": {
+        "nll_sum": 185.8024936914444,
+        "tokens": 64
+      }
+    },
+    "6": {
+      "<urn:uuid:360dafa2-395d-42e0-8302-d8038645b81a>": {
+        "nll_sum": 360.5774643421173,
+        "tokens": 128
+      },
+      "<urn:uuid:095340b9-8a67-45ac-afb3-250bec8e3efd>": {
+        "nll_sum": 396.85860085487366,
+        "tokens": 128
+      },
+      "<urn:uuid:afb88e53-1677-4ba0-b645-2fe8c73bfe92>": {
+        "nll_sum": 590.8202856779099,
+        "tokens": 128
+      },
+      "<urn:uuid:ec0e6f98-3a7f-4352-8b6f-6818490bfb09>": {
+        "nll_sum": 363.46088445186615,
+        "tokens": 128
+      },
+      "<urn:uuid:550f1552-014a-4ced-9df8-957efed7aa66>": {
+        "nll_sum": 464.9250732064247,
+        "tokens": 128
+      },
+      "<urn:uuid:2d7dd9ce-a1dc-474b-822e-bc55a7a1d134>": {
+        "nll_sum": 391.00800400972366,
+        "tokens": 128
+      },
+      "<urn:uuid:223245c6-cb3b-4b51-9be0-42b4f68b8f50>": {
+        "nll_sum": 378.12332957983017,
+        "tokens": 128
+      },
+      "<urn:uuid:4ced032c-6755-40a4-adbe-04cbce45ca4d>": {
+        "nll_sum": 365.6761570572853,
+        "tokens": 128
+      },
+      "<urn:uuid:7952b619-9220-43e5-b347-e9eb59e482f1>": {
+        "nll_sum": 366.23276031017303,
+        "tokens": 128
+      },
+      "<urn:uuid:21d93486-56e5-4964-8f8c-53e68566ffa9>": {
+        "nll_sum": 388.7373706102371,
+        "tokens": 128
+      },
+      "<urn:uuid:f54d7596-478b-4884-8c87-8ee6018559c4>": {
+        "nll_sum": 384.9354094862938,
+        "tokens": 128
+      },
+      "<urn:uuid:54fde05a-6416-4ebc-88da-f5bfd9ff70d7>": {
+        "nll_sum": 394.23609232902527,
+        "tokens": 128
+      },
+      "<urn:uuid:d4b5a2cb-eb27-462d-b38d-5329468bba24>": {
+        "nll_sum": 379.96594709157944,
+        "tokens": 128
+      },
+      "<urn:uuid:1c41f3df-cbe7-4adf-88de-e3ecdab31093>": {
+        "nll_sum": 385.68655586242676,
+        "tokens": 128
+      },
+      "<urn:uuid:7ef8e55e-3e66-41aa-b5f7-88fbeb5f1c87>": {
+        "nll_sum": 407.26849234104156,
+        "tokens": 128
+      },
+      "<urn:uuid:c6c03e75-ef3c-4e66-80ce-d937222af5e1>": {
+        "nll_sum": 392.08765375614166,
+        "tokens": 128
+      },
+      "<urn:uuid:a6a01339-b446-4316-940c-da310b176b81>": {
+        "nll_sum": 382.8612985610962,
+        "tokens": 128
+      },
+      "<urn:uuid:3cad8aa8-a0c4-4556-81a3-03253c1cb027>": {
+        "nll_sum": 366.0112352371216,
+        "tokens": 128
+      },
+      "<urn:uuid:07b27a46-98e3-4dd6-b067-28b172d74f1c>": {
+        "nll_sum": 381.64721554517746,
+        "tokens": 128
+      },
+      "<urn:uuid:fb60a26a-cf55-4ebb-ad77-2701f4832adf>": {
+        "nll_sum": 182.0191462635994,
+        "tokens": 64
+      },
+      "<urn:uuid:cecf0e24-c788-41c7-a4fe-ebd1bf99d4d6>": {
+        "nll_sum": 197.01276451349258,
+        "tokens": 64
+      },
+      "<urn:uuid:7b5e4231-3321-42c1-b3aa-d39be2dbf287>": {
+        "nll_sum": 206.4856299161911,
+        "tokens": 64
+      },
+      "<urn:uuid:8cd72730-220b-4220-9cc6-3c6805f93d43>": {
+        "nll_sum": 257.2288424372673,
+        "tokens": 64
+      },
+      "<urn:uuid:3d309272-4886-4774-800c-93689bebd499>": {
+        "nll_sum": 177.182162463665,
+        "tokens": 64
+      },
+      "<urn:uuid:01bf7cc7-f503-425f-985d-1e230dd777ef>": {
+        "nll_sum": 202.9815029501915,
+        "tokens": 64
+      },
+      "<urn:uuid:f039feac-7cd1-42b5-a7a2-50a40c01413d>": {
+        "nll_sum": 204.1536940932274,
+        "tokens": 64
+      },
+      "<urn:uuid:4d6acfe6-fe70-409d-ae15-043a8728098b>": {
+        "nll_sum": 191.2233367562294,
+        "tokens": 64
+      },
+      "<urn:uuid:2915eaf2-0700-4f20-90b6-840461a97ed5>": {
+        "nll_sum": 208.79770785570145,
+        "tokens": 64
+      },
+      "<urn:uuid:5dc7084c-e1f3-4bec-b76b-b116bb6a7633>": {
+        "nll_sum": 193.87390381097794,
+        "tokens": 64
+      },
+      "<urn:uuid:7e9f6e85-f2d3-4c0e-8bdb-ae0b597dbdab>": {
+        "nll_sum": 189.3122810125351,
+        "tokens": 64
+      },
+      "<urn:uuid:8edeb30a-8c55-44ca-b677-12b75aa49da5>": {
+        "nll_sum": 189.70802646875381,
+        "tokens": 64
+      },
+      "<urn:uuid:34b39672-a82e-4bc6-b100-f0e4a1474a02>": {
+        "nll_sum": 199.3119193315506,
+        "tokens": 64
+      },
+      "<urn:uuid:09fe8327-fcb9-4a20-9d0a-61e0a300b31a>": {
+        "nll_sum": 183.37136608362198,
+        "tokens": 64
+      },
+      "<urn:uuid:a7b93839-5b23-402d-b438-f5d83a1f7a10>": {
+        "nll_sum": 188.15080046653748,
+        "tokens": 64
+      },
+      "<urn:uuid:e4e88591-7f5c-4eba-b8c4-b4250ab6cb4c>": {
+        "nll_sum": 176.56425088644028,
+        "tokens": 64
+      },
+      "<urn:uuid:14c9a67f-b3ba-4ee4-b708-58b29e823a18>": {
+        "nll_sum": 176.18363577127457,
+        "tokens": 64
+      },
+      "<urn:uuid:ae61e57d-27da-420a-9f4f-95b618e3657d>": {
+        "nll_sum": 188.73069483041763,
+        "tokens": 64
+      },
+      "<urn:uuid:ca2fc211-902e-474c-9276-5f9e0d6006dd>": {
+        "nll_sum": 197.8989389538765,
+        "tokens": 64
+      },
+      "<urn:uuid:539c7a34-9650-4b07-aa93-8f0a28ae41f3>": {
+        "nll_sum": 188.11694318056107,
+        "tokens": 64
+      },
+      "<urn:uuid:e300d760-188f-4b3b-819d-714e747e7d40>": {
+        "nll_sum": 205.26694613695145,
+        "tokens": 64
+      },
+      "<urn:uuid:84cf351a-5534-4b94-ac2d-dcd4b7b58708>": {
+        "nll_sum": 224.3830972313881,
+        "tokens": 64
+      },
+      "<urn:uuid:056a4656-9d9f-4da1-af03-4215459d8183>": {
+        "nll_sum": 205.5601447224617,
+        "tokens": 64
+      },
+      "<urn:uuid:b5c6edb4-3578-4f5c-bc3f-975db60c2259>": {
+        "nll_sum": 208.78350269794464,
+        "tokens": 64
+      },
+      "<urn:uuid:92c18755-00b7-4459-9196-5d1071d585ff>": {
+        "nll_sum": 208.67470455169678,
+        "tokens": 64
+      },
+      "<urn:uuid:04a311e9-1f0f-4814-a60d-eca00488550e>": {
+        "nll_sum": 186.57844722270966,
+        "tokens": 64
+      }
+    },
+    "8": {
+      "<urn:uuid:360dafa2-395d-42e0-8302-d8038645b81a>": {
+        "nll_sum": 361.7599678635597,
+        "tokens": 128
+      },
+      "<urn:uuid:095340b9-8a67-45ac-afb3-250bec8e3efd>": {
+        "nll_sum": 399.27570617198944,
+        "tokens": 128
+      },
+      "<urn:uuid:afb88e53-1677-4ba0-b645-2fe8c73bfe92>": {
+        "nll_sum": 595.5707679986954,
+        "tokens": 128
+      },
+      "<urn:uuid:ec0e6f98-3a7f-4352-8b6f-6818490bfb09>": {
+        "nll_sum": 366.33736127614975,
+        "tokens": 128
+      },
+      "<urn:uuid:550f1552-014a-4ced-9df8-957efed7aa66>": {
+        "nll_sum": 467.8963447213173,
+        "tokens": 128
+      },
+      "<urn:uuid:2d7dd9ce-a1dc-474b-822e-bc55a7a1d134>": {
+        "nll_sum": 392.9448906779289,
+        "tokens": 128
+      },
+      "<urn:uuid:223245c6-cb3b-4b51-9be0-42b4f68b8f50>": {
+        "nll_sum": 380.7674243450165,
+        "tokens": 128
+      },
+      "<urn:uuid:4ced032c-6755-40a4-adbe-04cbce45ca4d>": {
+        "nll_sum": 368.3669136762619,
+        "tokens": 128
+      },
+      "<urn:uuid:7952b619-9220-43e5-b347-e9eb59e482f1>": {
+        "nll_sum": 368.1714708209038,
+        "tokens": 128
+      },
+      "<urn:uuid:21d93486-56e5-4964-8f8c-53e68566ffa9>": {
+        "nll_sum": 391.56116449832916,
+        "tokens": 128
+      },
+      "<urn:uuid:f54d7596-478b-4884-8c87-8ee6018559c4>": {
+        "nll_sum": 386.34972780942917,
+        "tokens": 128
+      },
+      "<urn:uuid:54fde05a-6416-4ebc-88da-f5bfd9ff70d7>": {
+        "nll_sum": 396.41011756658554,
+        "tokens": 128
+      },
+      "<urn:uuid:d4b5a2cb-eb27-462d-b38d-5329468bba24>": {
+        "nll_sum": 383.36135321855545,
+        "tokens": 128
+      },
+      "<urn:uuid:1c41f3df-cbe7-4adf-88de-e3ecdab31093>": {
+        "nll_sum": 388.082846224308,
+        "tokens": 128
+      },
+      "<urn:uuid:7ef8e55e-3e66-41aa-b5f7-88fbeb5f1c87>": {
+        "nll_sum": 410.1523553133011,
+        "tokens": 128
+      },
+      "<urn:uuid:c6c03e75-ef3c-4e66-80ce-d937222af5e1>": {
+        "nll_sum": 394.880554497242,
+        "tokens": 128
+      },
+      "<urn:uuid:a6a01339-b446-4316-940c-da310b176b81>": {
+        "nll_sum": 384.9781813621521,
+        "tokens": 128
+      },
+      "<urn:uuid:3cad8aa8-a0c4-4556-81a3-03253c1cb027>": {
+        "nll_sum": 368.2436703443527,
+        "tokens": 128
+      },
+      "<urn:uuid:07b27a46-98e3-4dd6-b067-28b172d74f1c>": {
+        "nll_sum": 384.640215754509,
+        "tokens": 128
+      },
+      "<urn:uuid:fb60a26a-cf55-4ebb-ad77-2701f4832adf>": {
+        "nll_sum": 183.84148848056793,
+        "tokens": 64
+      },
+      "<urn:uuid:cecf0e24-c788-41c7-a4fe-ebd1bf99d4d6>": {
+        "nll_sum": 197.15944933891296,
+        "tokens": 64
+      },
+      "<urn:uuid:7b5e4231-3321-42c1-b3aa-d39be2dbf287>": {
+        "nll_sum": 206.95842188596725,
+        "tokens": 64
+      },
+      "<urn:uuid:8cd72730-220b-4220-9cc6-3c6805f93d43>": {
+        "nll_sum": 259.72714072465897,
+        "tokens": 64
+      },
+      "<urn:uuid:3d309272-4886-4774-800c-93689bebd499>": {
+        "nll_sum": 178.43556720018387,
+        "tokens": 64
+      },
+      "<urn:uuid:01bf7cc7-f503-425f-985d-1e230dd777ef>": {
+        "nll_sum": 204.7815259695053,
+        "tokens": 64
+      },
+      "<urn:uuid:f039feac-7cd1-42b5-a7a2-50a40c01413d>": {
+        "nll_sum": 205.67090946435928,
+        "tokens": 64
+      },
+      "<urn:uuid:4d6acfe6-fe70-409d-ae15-043a8728098b>": {
+        "nll_sum": 193.0756551027298,
+        "tokens": 64
+      },
+      "<urn:uuid:2915eaf2-0700-4f20-90b6-840461a97ed5>": {
+        "nll_sum": 209.02330070734024,
+        "tokens": 64
+      },
+      "<urn:uuid:5dc7084c-e1f3-4bec-b76b-b116bb6a7633>": {
+        "nll_sum": 195.94956040382385,
+        "tokens": 64
+      },
+      "<urn:uuid:7e9f6e85-f2d3-4c0e-8bdb-ae0b597dbdab>": {
+        "nll_sum": 190.29164630174637,
+        "tokens": 64
+      },
+      "<urn:uuid:8edeb30a-8c55-44ca-b677-12b75aa49da5>": {
+        "nll_sum": 190.3387566804886,
+        "tokens": 64
+      },
+      "<urn:uuid:34b39672-a82e-4bc6-b100-f0e4a1474a02>": {
+        "nll_sum": 200.83016669750214,
+        "tokens": 64
+      },
+      "<urn:uuid:09fe8327-fcb9-4a20-9d0a-61e0a300b31a>": {
+        "nll_sum": 184.2513743042946,
+        "tokens": 64
+      },
+      "<urn:uuid:a7b93839-5b23-402d-b438-f5d83a1f7a10>": {
+        "nll_sum": 188.2421543598175,
+        "tokens": 64
+      },
+      "<urn:uuid:e4e88591-7f5c-4eba-b8c4-b4250ab6cb4c>": {
+        "nll_sum": 177.1758069396019,
+        "tokens": 64
+      },
+      "<urn:uuid:14c9a67f-b3ba-4ee4-b708-58b29e823a18>": {
+        "nll_sum": 176.9362273812294,
+        "tokens": 64
+      },
+      "<urn:uuid:ae61e57d-27da-420a-9f4f-95b618e3657d>": {
+        "nll_sum": 189.55090355873108,
+        "tokens": 64
+      },
+      "<urn:uuid:ca2fc211-902e-474c-9276-5f9e0d6006dd>": {
+        "nll_sum": 200.36780923604965,
+        "tokens": 64
+      },
+      "<urn:uuid:539c7a34-9650-4b07-aa93-8f0a28ae41f3>": {
+        "nll_sum": 189.1617330312729,
+        "tokens": 64
+      },
+      "<urn:uuid:e300d760-188f-4b3b-819d-714e747e7d40>": {
+        "nll_sum": 207.15724337100983,
+        "tokens": 64
+      },
+      "<urn:uuid:84cf351a-5534-4b94-ac2d-dcd4b7b58708>": {
+        "nll_sum": 224.8395614027977,
+        "tokens": 64
+      },
+      "<urn:uuid:056a4656-9d9f-4da1-af03-4215459d8183>": {
+        "nll_sum": 206.07973659038544,
+        "tokens": 64
+      },
+      "<urn:uuid:b5c6edb4-3578-4f5c-bc3f-975db60c2259>": {
+        "nll_sum": 208.7415047287941,
+        "tokens": 64
+      },
+      "<urn:uuid:92c18755-00b7-4459-9196-5d1071d585ff>": {
+        "nll_sum": 208.66165471076965,
+        "tokens": 64
+      },
+      "<urn:uuid:04a311e9-1f0f-4814-a60d-eca00488550e>": {
+        "nll_sum": 187.66855245828629,
+        "tokens": 64
+      }
+    },
+    "12": {
+      "<urn:uuid:360dafa2-395d-42e0-8302-d8038645b81a>": {
+        "nll_sum": 364.7139152288437,
+        "tokens": 128
+      },
+      "<urn:uuid:095340b9-8a67-45ac-afb3-250bec8e3efd>": {
+        "nll_sum": 403.7825918197632,
+        "tokens": 128
+      },
+      "<urn:uuid:afb88e53-1677-4ba0-b645-2fe8c73bfe92>": {
+        "nll_sum": 595.3879786729813,
+        "tokens": 128
+      },
+      "<urn:uuid:ec0e6f98-3a7f-4352-8b6f-6818490bfb09>": {
+        "nll_sum": 374.17976409196854,
+        "tokens": 128
+      },
+      "<urn:uuid:550f1552-014a-4ced-9df8-957efed7aa66>": {
+        "nll_sum": 470.96505612134933,
+        "tokens": 128
+      },
+      "<urn:uuid:2d7dd9ce-a1dc-474b-822e-bc55a7a1d134>": {
+        "nll_sum": 398.68743073940277,
+        "tokens": 128
+      },
+      "<urn:uuid:223245c6-cb3b-4b51-9be0-42b4f68b8f50>": {
+        "nll_sum": 387.2219977378845,
+        "tokens": 128
+      },
+      "<urn:uuid:4ced032c-6755-40a4-adbe-04cbce45ca4d>": {
+        "nll_sum": 374.0536202788353,
+        "tokens": 128
+      },
+      "<urn:uuid:7952b619-9220-43e5-b347-e9eb59e482f1>": {
+        "nll_sum": 372.17429280281067,
+        "tokens": 128
+      },
+      "<urn:uuid:21d93486-56e5-4964-8f8c-53e68566ffa9>": {
+        "nll_sum": 397.58606845140457,
+        "tokens": 128
+      },
+      "<urn:uuid:f54d7596-478b-4884-8c87-8ee6018559c4>": {
+        "nll_sum": 390.01181507110596,
+        "tokens": 128
+      },
+      "<urn:uuid:54fde05a-6416-4ebc-88da-f5bfd9ff70d7>": {
+        "nll_sum": 401.8211399912834,
+        "tokens": 128
+      },
+      "<urn:uuid:d4b5a2cb-eb27-462d-b38d-5329468bba24>": {
+        "nll_sum": 388.53866797685623,
+        "tokens": 128
+      },
+      "<urn:uuid:1c41f3df-cbe7-4adf-88de-e3ecdab31093>": {
+        "nll_sum": 393.44478982686996,
+        "tokens": 128
+      },
+      "<urn:uuid:7ef8e55e-3e66-41aa-b5f7-88fbeb5f1c87>": {
+        "nll_sum": 415.79247575998306,
+        "tokens": 128
+      },
+      "<urn:uuid:c6c03e75-ef3c-4e66-80ce-d937222af5e1>": {
+        "nll_sum": 400.92228281497955,
+        "tokens": 128
+      },
+      "<urn:uuid:a6a01339-b446-4316-940c-da310b176b81>": {
+        "nll_sum": 391.0258696079254,
+        "tokens": 128
+      },
+      "<urn:uuid:3cad8aa8-a0c4-4556-81a3-03253c1cb027>": {
+        "nll_sum": 374.5190739631653,
+        "tokens": 128
+      },
+      "<urn:uuid:07b27a46-98e3-4dd6-b067-28b172d74f1c>": {
+        "nll_sum": 391.0278699994087,
+        "tokens": 128
+      },
+      "<urn:uuid:fb60a26a-cf55-4ebb-ad77-2701f4832adf>": {
+        "nll_sum": 187.63753360509872,
+        "tokens": 64
+      },
+      "<urn:uuid:cecf0e24-c788-41c7-a4fe-ebd1bf99d4d6>": {
+        "nll_sum": 199.09175437688828,
+        "tokens": 64
+      },
+      "<urn:uuid:7b5e4231-3321-42c1-b3aa-d39be2dbf287>": {
+        "nll_sum": 208.71940052509308,
+        "tokens": 64
+      },
+      "<urn:uuid:8cd72730-220b-4220-9cc6-3c6805f93d43>": {
+        "nll_sum": 261.5108288526535,
+        "tokens": 64
+      },
+      "<urn:uuid:3d309272-4886-4774-800c-93689bebd499>": {
+        "nll_sum": 181.12228709459305,
+        "tokens": 64
+      },
+      "<urn:uuid:01bf7cc7-f503-425f-985d-1e230dd777ef>": {
+        "nll_sum": 207.64893472194672,
+        "tokens": 64
+      },
+      "<urn:uuid:f039feac-7cd1-42b5-a7a2-50a40c01413d>": {
+        "nll_sum": 207.6315420269966,
+        "tokens": 64
+      },
+      "<urn:uuid:4d6acfe6-fe70-409d-ae15-043a8728098b>": {
+        "nll_sum": 196.1572047472,
+        "tokens": 64
+      },
+      "<urn:uuid:2915eaf2-0700-4f20-90b6-840461a97ed5>": {
+        "nll_sum": 210.80277037620544,
+        "tokens": 64
+      },
+      "<urn:uuid:5dc7084c-e1f3-4bec-b76b-b116bb6a7633>": {
+        "nll_sum": 200.0348620414734,
+        "tokens": 64
+      },
+      "<urn:uuid:7e9f6e85-f2d3-4c0e-8bdb-ae0b597dbdab>": {
+        "nll_sum": 192.69873189926147,
+        "tokens": 64
+      },
+      "<urn:uuid:8edeb30a-8c55-44ca-b677-12b75aa49da5>": {
+        "nll_sum": 192.6291024684906,
+        "tokens": 64
+      },
+      "<urn:uuid:34b39672-a82e-4bc6-b100-f0e4a1474a02>": {
+        "nll_sum": 203.94052982330322,
+        "tokens": 64
+      },
+      "<urn:uuid:09fe8327-fcb9-4a20-9d0a-61e0a300b31a>": {
+        "nll_sum": 186.4084973335266,
+        "tokens": 64
+      },
+      "<urn:uuid:a7b93839-5b23-402d-b438-f5d83a1f7a10>": {
+        "nll_sum": 190.54622542858124,
+        "tokens": 64
+      },
+      "<urn:uuid:e4e88591-7f5c-4eba-b8c4-b4250ab6cb4c>": {
+        "nll_sum": 179.6078578233719,
+        "tokens": 64
+      },
+      "<urn:uuid:14c9a67f-b3ba-4ee4-b708-58b29e823a18>": {
+        "nll_sum": 179.19483298063278,
+        "tokens": 64
+      },
+      "<urn:uuid:ae61e57d-27da-420a-9f4f-95b618e3657d>": {
+        "nll_sum": 192.88116854429245,
+        "tokens": 64
+      },
+      "<urn:uuid:ca2fc211-902e-474c-9276-5f9e0d6006dd>": {
+        "nll_sum": 204.6455841064453,
+        "tokens": 64
+      },
+      "<urn:uuid:539c7a34-9650-4b07-aa93-8f0a28ae41f3>": {
+        "nll_sum": 191.77058362960815,
+        "tokens": 64
+      },
+      "<urn:uuid:e300d760-188f-4b3b-819d-714e747e7d40>": {
+        "nll_sum": 211.12271404266357,
+        "tokens": 64
+      },
+      "<urn:uuid:84cf351a-5534-4b94-ac2d-dcd4b7b58708>": {
+        "nll_sum": 226.53249144554138,
+        "tokens": 64
+      },
+      "<urn:uuid:056a4656-9d9f-4da1-af03-4215459d8183>": {
+        "nll_sum": 208.05594837665558,
+        "tokens": 64
+      },
+      "<urn:uuid:b5c6edb4-3578-4f5c-bc3f-975db60c2259>": {
+        "nll_sum": 209.54224479198456,
+        "tokens": 64
+      },
+      "<urn:uuid:92c18755-00b7-4459-9196-5d1071d585ff>": {
+        "nll_sum": 209.04091447591782,
+        "tokens": 64
+      },
+      "<urn:uuid:04a311e9-1f0f-4814-a60d-eca00488550e>": {
+        "nll_sum": 191.17908245325089,
+        "tokens": 64
+      }
+    },
+    "16": {
+      "<urn:uuid:360dafa2-395d-42e0-8302-d8038645b81a>": {
+        "nll_sum": 368.33902192115784,
+        "tokens": 128
+      },
+      "<urn:uuid:095340b9-8a67-45ac-afb3-250bec8e3efd>": {
+        "nll_sum": 407.624772131443,
+        "tokens": 128
+      },
+      "<urn:uuid:afb88e53-1677-4ba0-b645-2fe8c73bfe92>": {
+        "nll_sum": 599.0118520259857,
+        "tokens": 128
+      },
+      "<urn:uuid:ec0e6f98-3a7f-4352-8b6f-6818490bfb09>": {
+        "nll_sum": 379.3630444407463,
+        "tokens": 128
+      },
+      "<urn:uuid:550f1552-014a-4ced-9df8-957efed7aa66>": {
+        "nll_sum": 475.20352751016617,
+        "tokens": 128
+      },
+      "<urn:uuid:2d7dd9ce-a1dc-474b-822e-bc55a7a1d134>": {
+        "nll_sum": 404.080946624279,
+        "tokens": 128
+      },
+      "<urn:uuid:223245c6-cb3b-4b51-9be0-42b4f68b8f50>": {
+        "nll_sum": 394.0259996652603,
+        "tokens": 128
+      },
+      "<urn:uuid:4ced032c-6755-40a4-adbe-04cbce45ca4d>": {
+        "nll_sum": 378.98030412197113,
+        "tokens": 128
+      },
+      "<urn:uuid:7952b619-9220-43e5-b347-e9eb59e482f1>": {
+        "nll_sum": 374.5908297300339,
+        "tokens": 128
+      },
+      "<urn:uuid:21d93486-56e5-4964-8f8c-53e68566ffa9>": {
+        "nll_sum": 403.1140266060829,
+        "tokens": 128
+      },
+      "<urn:uuid:f54d7596-478b-4884-8c87-8ee6018559c4>": {
+        "nll_sum": 392.73820155858994,
+        "tokens": 128
+      },
+      "<urn:uuid:54fde05a-6416-4ebc-88da-f5bfd9ff70d7>": {
+        "nll_sum": 407.7210203409195,
+        "tokens": 128
+      },
+      "<urn:uuid:d4b5a2cb-eb27-462d-b38d-5329468bba24>": {
+        "nll_sum": 393.1104971766472,
+        "tokens": 128
+      },
+      "<urn:uuid:1c41f3df-cbe7-4adf-88de-e3ecdab31093>": {
+        "nll_sum": 398.63958418369293,
+        "tokens": 128
+      },
+      "<urn:uuid:7ef8e55e-3e66-41aa-b5f7-88fbeb5f1c87>": {
+        "nll_sum": 420.32387244701385,
+        "tokens": 128
+      },
+      "<urn:uuid:c6c03e75-ef3c-4e66-80ce-d937222af5e1>": {
+        "nll_sum": 407.01641714572906,
+        "tokens": 128
+      },
+      "<urn:uuid:a6a01339-b446-4316-940c-da310b176b81>": {
+        "nll_sum": 397.3301633000374,
+        "tokens": 128
+      },
+      "<urn:uuid:3cad8aa8-a0c4-4556-81a3-03253c1cb027>": {
+        "nll_sum": 380.1104828119278,
+        "tokens": 128
+      },
+      "<urn:uuid:07b27a46-98e3-4dd6-b067-28b172d74f1c>": {
+        "nll_sum": 396.06994158029556,
+        "tokens": 128
+      },
+      "<urn:uuid:fb60a26a-cf55-4ebb-ad77-2701f4832adf>": {
+        "nll_sum": 190.74919855594635,
+        "tokens": 64
+      },
+      "<urn:uuid:cecf0e24-c788-41c7-a4fe-ebd1bf99d4d6>": {
+        "nll_sum": 199.76297223567963,
+        "tokens": 64
+      },
+      "<urn:uuid:7b5e4231-3321-42c1-b3aa-d39be2dbf287>": {
+        "nll_sum": 210.581805229187,
+        "tokens": 64
+      },
+      "<urn:uuid:8cd72730-220b-4220-9cc6-3c6805f93d43>": {
+        "nll_sum": 264.10609459877014,
+        "tokens": 64
+      },
+      "<urn:uuid:3d309272-4886-4774-800c-93689bebd499>": {
+        "nll_sum": 183.20731604099274,
+        "tokens": 64
+      },
+      "<urn:uuid:01bf7cc7-f503-425f-985d-1e230dd777ef>": {
+        "nll_sum": 210.30734872817993,
+        "tokens": 64
+      },
+      "<urn:uuid:f039feac-7cd1-42b5-a7a2-50a40c01413d>": {
+        "nll_sum": 209.41480660438538,
+        "tokens": 64
+      },
+      "<urn:uuid:4d6acfe6-fe70-409d-ae15-043a8728098b>": {
+        "nll_sum": 198.72175294160843,
+        "tokens": 64
+      },
+      "<urn:uuid:2915eaf2-0700-4f20-90b6-840461a97ed5>": {
+        "nll_sum": 212.43009620904922,
+        "tokens": 64
+      },
+      "<urn:uuid:5dc7084c-e1f3-4bec-b76b-b116bb6a7633>": {
+        "nll_sum": 204.17360615730286,
+        "tokens": 64
+      },
+      "<urn:uuid:7e9f6e85-f2d3-4c0e-8bdb-ae0b597dbdab>": {
+        "nll_sum": 193.65995734930038,
+        "tokens": 64
+      },
+      "<urn:uuid:8edeb30a-8c55-44ca-b677-12b75aa49da5>": {
+        "nll_sum": 194.40852457284927,
+        "tokens": 64
+      },
+      "<urn:uuid:34b39672-a82e-4bc6-b100-f0e4a1474a02>": {
+        "nll_sum": 207.96185392141342,
+        "tokens": 64
+      },
+      "<urn:uuid:09fe8327-fcb9-4a20-9d0a-61e0a300b31a>": {
+        "nll_sum": 188.30762577056885,
+        "tokens": 64
+      },
+      "<urn:uuid:a7b93839-5b23-402d-b438-f5d83a1f7a10>": {
+        "nll_sum": 192.21513146162033,
+        "tokens": 64
+      },
+      "<urn:uuid:e4e88591-7f5c-4eba-b8c4-b4250ab6cb4c>": {
+        "nll_sum": 181.98189115524292,
+        "tokens": 64
+      },
+      "<urn:uuid:14c9a67f-b3ba-4ee4-b708-58b29e823a18>": {
+        "nll_sum": 181.16428607702255,
+        "tokens": 64
+      },
+      "<urn:uuid:ae61e57d-27da-420a-9f4f-95b618e3657d>": {
+        "nll_sum": 195.2256132364273,
+        "tokens": 64
+      },
+      "<urn:uuid:ca2fc211-902e-474c-9276-5f9e0d6006dd>": {
+        "nll_sum": 209.59385585784912,
+        "tokens": 64
+      },
+      "<urn:uuid:539c7a34-9650-4b07-aa93-8f0a28ae41f3>": {
+        "nll_sum": 194.59132915735245,
+        "tokens": 64
+      },
+      "<urn:uuid:e300d760-188f-4b3b-819d-714e747e7d40>": {
+        "nll_sum": 213.5599506497383,
+        "tokens": 64
+      },
+      "<urn:uuid:84cf351a-5534-4b94-ac2d-dcd4b7b58708>": {
+        "nll_sum": 228.77219152450562,
+        "tokens": 64
+      },
+      "<urn:uuid:056a4656-9d9f-4da1-af03-4215459d8183>": {
+        "nll_sum": 210.8918857574463,
+        "tokens": 64
+      },
+      "<urn:uuid:b5c6edb4-3578-4f5c-bc3f-975db60c2259>": {
+        "nll_sum": 211.381982088089,
+        "tokens": 64
+      },
+      "<urn:uuid:92c18755-00b7-4459-9196-5d1071d585ff>": {
+        "nll_sum": 210.26933467388153,
+        "tokens": 64
+      },
+      "<urn:uuid:04a311e9-1f0f-4814-a60d-eca00488550e>": {
+        "nll_sum": 194.17539763450623,
+        "tokens": 64
+      }
+    }
+  },
+  "diagnostics_first_batch": [
+    {
+      "loop": 1,
+      "state_rms": 0.9826504588127136,
+      "update_rms": 0.8251635432243347,
+      "input_state_ratio": 0.9861531853675842,
+      "update_cosine_previous": null
+    },
+    {
+      "loop": 2,
+      "state_rms": 1.3260594606399536,
+      "update_rms": 0.6851341128349304,
+      "input_state_ratio": 0.9861531853675842,
+      "update_cosine_previous": 0.9139559864997864
+    },
+    {
+      "loop": 3,
+      "state_rms": 1.8603445291519165,
+      "update_rms": 0.5925681591033936,
+      "input_state_ratio": 0.9861531853675842,
+      "update_cosine_previous": 0.9273332953453064
+    },
+    {
+      "loop": 4,
+      "state_rms": 2.3437340259552,
+      "update_rms": 0.5363330841064453,
+      "input_state_ratio": 0.9861531853675842,
+      "update_cosine_previous": 0.9388954639434814
+    },
+    {
+      "loop": 5,
+      "state_rms": 2.7638096809387207,
+      "update_rms": 0.48985937237739563,
+      "input_state_ratio": 0.9861531853675842,
+      "update_cosine_previous": 0.9422575235366821
+    },
+    {
+      "loop": 6,
+      "state_rms": 3.1366312503814697,
+      "update_rms": 0.4551379680633545,
+      "input_state_ratio": 0.9861531853675842,
+      "update_cosine_previous": 0.9409815073013306
+    },
+    {
+      "loop": 7,
+      "state_rms": 3.482297658920288,
+      "update_rms": 0.4396512806415558,
+      "input_state_ratio": 0.9861531853675842,
+      "update_cosine_previous": 0.9370111227035522
+    },
+    {
+      "loop": 8,
+      "state_rms": 3.820557117462158,
+      "update_rms": 0.44437310099601746,
+      "input_state_ratio": 0.9861531853675842,
+      "update_cosine_previous": 0.9278374314308167
+    },
+    {
+      "loop": 9,
+      "state_rms": 4.1621623039245605,
+      "update_rms": 0.45761263370513916,
+      "input_state_ratio": 0.9861531853675842,
+      "update_cosine_previous": 0.928386926651001
+    },
+    {
+      "loop": 10,
+      "state_rms": 4.504178524017334,
+      "update_rms": 0.46533143520355225,
+      "input_state_ratio": 0.9861531853675842,
+      "update_cosine_previous": 0.9351605176925659
+    },
+    {
+      "loop": 11,
+      "state_rms": 4.841396808624268,
+      "update_rms": 0.4631025791168213,
+      "input_state_ratio": 0.9861531853675842,
+      "update_cosine_previous": 0.9348970651626587
+    },
+    {
+      "loop": 12,
+      "state_rms": 5.174481391906738,
+      "update_rms": 0.4538305401802063,
+      "input_state_ratio": 0.9861531853675842,
+      "update_cosine_previous": 0.9320665597915649
+    },
+    {
+      "loop": 13,
+      "state_rms": 5.506412029266357,
+      "update_rms": 0.44588735699653625,
+      "input_state_ratio": 0.9861531853675842,
+      "update_cosine_previous": 0.9332653284072876
+    },
+    {
+      "loop": 14,
+      "state_rms": 5.839306354522705,
+      "update_rms": 0.4440479874610901,
+      "input_state_ratio": 0.9861531853675842,
+      "update_cosine_previous": 0.9344292283058167
+    },
+    {
+      "loop": 15,
+      "state_rms": 6.172699928283691,
+      "update_rms": 0.44318944215774536,
+      "input_state_ratio": 0.9861531853675842,
+      "update_cosine_previous": 0.9330840706825256
+    },
+    {
+      "loop": 16,
+      "state_rms": 6.499208927154541,
+      "update_rms": 0.43902939558029175,
+      "input_state_ratio": 0.9861531853675842,
+      "update_cosine_previous": 0.9276780486106873
+    }
+  ],
+  "evaluation_seconds": 0.2862134999999999,
+  "checkpoint_sha256": "66ff27c0f8f3d6e191903f5900d6586375d298432710839edb930fca714ca3e5"
+}

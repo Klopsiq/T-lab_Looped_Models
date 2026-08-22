@@ -1,0 +1,12 @@
+{
+  "README.md": "f7ae41b02907bd08eaab8b4c9f4812e0e58ad3beb458aea3ef6b67e751d99667",
+  "config.json": "1d3d0a772343515af7e14a808cda1a94202b74407ebb35039033ba34e301a83c",
+  "data_manifest.json": "38334c8b41bc2ec29a8b06749e60e80b2ec7e83637c34703daba9f9b24ccad99",
+  "inference_example.py": "9a3f1e1aebab37cf44daeb1ad852f10434f4ee7db2475803d6958c5f794cbbea",
+  "model.pt": "858bf5ff92fdf1656c3efe6e2c65c67877d9ecf2b2e75fe948d4b749c3b412cf",
+  "model.py": "b83e22235f423b188699432a087ed7914910a2455c82bbb7b681b242cc935ae0",
+  "requirements.txt": "6612867ee272d16eb315d3484cba311e26c69f60205739ebe52ae1c292b822e5",
+  "test_result.json": "decbff1cfb4506f812d29f81d448f652eda4e1d804cf2ae95fce4f0c9ea8c26d",
+  "tokenizer.json": "59907441ee1b0d0f20b10571da1b5c58928d9706a788f23f1fe2bc7c2fba8c1c",
+  "validation_result.json": "62f014deb41a3c6ca3a090fc508046cec14738a5f1879a78e517050ece4fb86c"
+}

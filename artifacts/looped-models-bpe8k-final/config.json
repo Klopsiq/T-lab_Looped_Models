@@ -1,0 +1,21 @@
+{
+  "model_config": {
+    "vocab_size": 8192,
+    "width": 512,
+    "intermediate": 1280,
+    "heads": 8,
+    "kv_heads": 2,
+    "core_layers": 2,
+    "relative": true,
+    "depth_rope": true,
+    "normalize_skip": false,
+    "depth_theta": 1000.0,
+    "position_theta": 10000.0
+  },
+  "inference_depth": 12,
+  "source_checkpoint_sha256": "c5fac83cc147c5abd91e49b818620f3162cd7d38a69ae35eb79eeb06ad02f146",
+  "presented_tokens": 24969216,
+  "arm": "combined_random8_16_aux",
+  "seed": 47,
+  "parameter_count": 9440513
+}

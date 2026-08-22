@@ -1,0 +1,34 @@
+# Python
+.venv/
+.plot-deps/
+.bpe-deps/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+build/
+dist/
+
+# Editors and OS
+.DS_Store
+.idea/
+.vscode/
+
+# Training data and checkpoints
+data/
+runs/
+*.pt
+*.pth
+*.ckpt
+
+# Large transport archives and raw machine snapshots
+*.tar.gz
+*.tar.gz.sha256
+reports/**/raw/
+
+# Local secrets
+.env
+.env.*
+*.pem
+*.key

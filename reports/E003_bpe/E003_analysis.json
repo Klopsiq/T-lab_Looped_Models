@@ -1,0 +1,197 @@
+{
+  "baseline": "relative_fixed16",
+  "candidate": "combined_random8_16_aux",
+  "seeds": [
+    23,
+    47
+  ],
+  "paired_document_bootstrap": {
+    "23": {
+      "1": {
+        "difference_nll": -0.011900501878535863,
+        "ci95_low": -0.021313191653302515,
+        "ci95_high": -0.002451540567778958,
+        "probability_candidate_better": 0.9933,
+        "documents": 1258,
+        "bootstrap_samples": 20000
+      },
+      "2": {
+        "difference_nll": 0.008054024212122535,
+        "ci95_low": 0.0022971300277325715,
+        "ci95_high": 0.013911704607451648,
+        "probability_candidate_better": 0.0027,
+        "documents": 1258,
+        "bootstrap_samples": 20000
+      },
+      "4": {
+        "difference_nll": -0.08183934119321634,
+        "ci95_low": -0.08501530004347119,
+        "ci95_high": -0.07866268335284783,
+        "probability_candidate_better": 1.0,
+        "documents": 1258,
+        "bootstrap_samples": 20000
+      },
+      "8": {
+        "difference_nll": -0.0523878356959786,
+        "ci95_low": -0.055264620767391956,
+        "ci95_high": -0.049560359187657735,
+        "probability_candidate_better": 1.0,
+        "documents": 1258,
+        "bootstrap_samples": 20000
+      },
+      "12": {
+        "difference_nll": -0.03923169738721555,
+        "ci95_low": -0.04198759857990769,
+        "ci95_high": -0.0364967266774141,
+        "probability_candidate_better": 1.0,
+        "documents": 1258,
+        "bootstrap_samples": 20000
+      },
+      "16": {
+        "difference_nll": -0.029207926014198193,
+        "ci95_low": -0.03193770061351998,
+        "ci95_high": -0.02653184848315148,
+        "probability_candidate_better": 1.0,
+        "documents": 1258,
+        "bootstrap_samples": 20000
+      },
+      "24": {
+        "difference_nll": 0.01797927287364587,
+        "ci95_low": 0.015279820717337297,
+        "ci95_high": 0.020651973640128145,
+        "probability_candidate_better": 0.0,
+        "documents": 1258,
+        "bootstrap_samples": 20000
+      },
+      "32": {
+        "difference_nll": 0.06536585101827086,
+        "ci95_low": 0.06248995292336847,
+        "ci95_high": 0.06813327906552986,
+        "probability_candidate_better": 0.0,
+        "documents": 1258,
+        "bootstrap_samples": 20000
+      },
+      "48": {
+        "difference_nll": 0.16138571136778435,
+        "ci95_low": 0.15795055748626535,
+        "ci95_high": 0.16482694811587023,
+        "probability_candidate_better": 0.0,
+        "documents": 1258,
+        "bootstrap_samples": 20000
+      },
+      "64": {
+        "difference_nll": 0.2502400534966327,
+        "ci95_low": 0.24604846316384216,
+        "ci95_high": 0.2543859207569545,
+        "probability_candidate_better": 0.0,
+        "documents": 1258,
+        "bootstrap_samples": 20000
+      }
+    },
+    "47": {
+      "1": {
+        "difference_nll": -0.6266081949359537,
+        "ci95_low": -0.637113117960598,
+        "ci95_high": -0.6161370316309027,
+        "probability_candidate_better": 1.0,
+        "documents": 1258,
+        "bootstrap_samples": 20000
+      },
+      "2": {
+        "difference_nll": -0.19090647113936754,
+        "ci95_low": -0.19584753342991387,
+        "ci95_high": -0.18594560844740668,
+        "probability_candidate_better": 1.0,
+        "documents": 1258,
+        "bootstrap_samples": 20000
+      },
+      "4": {
+        "difference_nll": -0.06924582933343792,
+        "ci95_low": -0.0719743944239582,
+        "ci95_high": -0.06648492630226595,
+        "probability_candidate_better": 1.0,
+        "documents": 1258,
+        "bootstrap_samples": 20000
+      },
+      "8": {
+        "difference_nll": -0.03758505143779267,
+        "ci95_low": -0.040019502397606106,
+        "ci95_high": -0.03517295512657124,
+        "probability_candidate_better": 1.0,
+        "documents": 1258,
+        "bootstrap_samples": 20000
+      },
+      "12": {
+        "difference_nll": -0.030690787962067034,
+        "ci95_low": -0.0331103154783808,
+        "ci95_high": -0.028269253025873808,
+        "probability_candidate_better": 1.0,
+        "documents": 1258,
+        "bootstrap_samples": 20000
+      },
+      "16": {
+        "difference_nll": -0.02255882812776555,
+        "ci95_low": -0.0250135498750757,
+        "ci95_high": -0.020098010874149745,
+        "probability_candidate_better": 1.0,
+        "documents": 1258,
+        "bootstrap_samples": 20000
+      },
+      "24": {
+        "difference_nll": 0.02180492884794205,
+        "ci95_low": 0.019050631326643586,
+        "ci95_high": 0.024579758110274855,
+        "probability_candidate_better": 0.0,
+        "documents": 1258,
+        "bootstrap_samples": 20000
+      },
+      "32": {
+        "difference_nll": 0.06087132745259982,
+        "ci95_low": 0.05792761860224408,
+        "ci95_high": 0.06377200339625858,
+        "probability_candidate_better": 0.0,
+        "documents": 1258,
+        "bootstrap_samples": 20000
+      },
+      "48": {
+        "difference_nll": 0.1516634077094725,
+        "ci95_low": 0.1483163112125755,
+        "ci95_high": 0.1549970757324447,
+        "probability_candidate_better": 0.0,
+        "documents": 1258,
+        "bootstrap_samples": 20000
+      },
+      "64": {
+        "difference_nll": 0.2298620486028149,
+        "ci95_low": 0.2260873437731587,
+        "ci95_high": 0.23355473130774293,
+        "probability_candidate_better": 0.0,
+        "documents": 1258,
+        "bootstrap_samples": 20000
+      }
+    }
+  },
+  "registered_decision_by_seed": [
+    {
+      "seed": 23,
+      "candidate_quality_gain_nll_at_16": 0.029207926014203522,
+      "baseline_delta_16_to_32": 0.016485357659280275,
+      "candidate_delta_16_to_32": 0.11105913469175377,
+      "candidate_delta_gain": -0.0945737770324735,
+      "condition_1": false,
+      "condition_2": false,
+      "seed_passes": false
+    },
+    {
+      "seed": 47,
+      "candidate_quality_gain_nll_at_16": 0.022558828127767327,
+      "baseline_delta_16_to_32": 0.011853234867934326,
+      "candidate_delta_16_to_32": 0.09528339044830325,
+      "candidate_delta_gain": -0.08343015558036893,
+      "condition_1": false,
+      "condition_2": false,
+      "seed_passes": false
+    }
+  ],
+  "continue_both_to_100m": false
+}
